@@ -1,0 +1,42 @@
+{
+    "name": "juniore/joyn-api-php",
+    "description": "api client for joyn",
+    "keywords": [
+        "juniore",
+        "joyn-api-php"
+    ],
+    "homepage": "https://github.com/juniore/joyn-api-php",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jan Junior Everaert",
+            "email": "janjunior.everaert@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JuniorE\\JoynApiPhp\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JuniorE\\JoynApiPhp\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
