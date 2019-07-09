@@ -1,6 +1,7 @@
 {
     "name": "juniore/joyn-api-php",
     "description": "api client for joyn",
+    "version": "0.0.1",
     "keywords": [
         "juniore",
         "joyn-api-php"
