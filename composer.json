@@ -16,14 +16,19 @@
         }
     ],
     "require": {
-        "php": "^7.1"
+        "php": "^7.1",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "composer/ca-bundle": "^1.1",
+        "guzzlehttp/guzzle": "^6.3"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.0"
     },
     "autoload": {
         "psr-4": {
-            "JuniorE\\JoynApiPhp\\": "src"
+            "JuniorE\\JoynApiClient\\": "src"
         }
     },
     "autoload-dev": {
